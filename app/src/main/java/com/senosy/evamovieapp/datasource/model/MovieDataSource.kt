@@ -33,7 +33,8 @@ fun MovieDataSource.mapToEntity(): MovieEntity = MovieEntity(
     posterPath = posterPath,
     releaseDate = releaseDate,
     popularity = popularity,
-    isAdult = isAdult
+    isAdult = isAdult,
+    voteAverage = voteAverage
 )
 
 /**

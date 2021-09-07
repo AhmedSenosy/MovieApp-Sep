@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_nav">
+    android:id="@+id/main_nav"
+    app:startDestination="@id/movieListFragment">
 
+    <fragment
+        android:id="@+id/top_rated"
+        android:name="com.senosy.evamovieapp.ui.movelist.MovieListFragment"
+        android:label="Top Rated" >
+        <argument android:name="fragmentType"
+            android:defaultValue="top_rated"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.senosy.evamovieapp.ui.movelist.MovieListFragment"
+        android:label="Now playing" >
+        <argument
+            android:name="fragmentType"
+            app:argType="string"
+            android:defaultValue="now_playing" />
+    </fragment>
 </navigation>
