@@ -32,10 +32,6 @@ class MovieListFragment : Fragment() {
     }
 
     private var binding: FragmentMovieListBinding? = null
-//
-//    private val movieCoordinator: MovieCoordinator = MovieListFragmentServiceLocator.getCoordinator(
-//        navigator = MovieNavigator()
-//    )
 
     private val movieListViewModel: MovieListViewModel by viewModels {
         val movieUseCase = getMovieUseCase(

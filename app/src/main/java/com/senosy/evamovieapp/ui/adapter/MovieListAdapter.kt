@@ -1,4 +1,4 @@
-package com.senosy.evamovieapp.ui.movelist.adapter
+package com.senosy.evamovieapp.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

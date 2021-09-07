@@ -1,4 +1,4 @@
-package com.senosy.evamovieapp.ui.movelist.view
+package com.senosy.evamovieapp.ui.view
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,14 +6,13 @@ import android.view.LayoutInflater
 import android.widget.FrameLayout
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.senosy.evamovieapp.core.extensions.gone
 import com.senosy.evamovieapp.core.extensions.visible
 import com.senosy.evamovieapp.core.extensions.visibleOrGone
 import com.senosy.evamovieapp.core.widget.EndlessRecyclerViewScrollListener
 import com.senosy.evamovieapp.databinding.MovieListViewBinding
 import com.senosy.evamovieapp.domain.model.MovieEntity
-import com.senosy.evamovieapp.ui.movelist.adapter.MovieListAdapter
+import com.senosy.evamovieapp.ui.adapter.MovieListAdapter
 
 /**
  * Custom view that holds all the logic related to showing [MovieEntity] in a list appearance.

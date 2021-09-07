@@ -7,5 +7,7 @@
     <item
         android:id="@+id/top_rated"
         android:title="Top Rated" />
-    <item android:title="Search" />
+    <item
+        android:id="@+id/searchMovieFragment"
+        android:title="Search" />
 </menu>

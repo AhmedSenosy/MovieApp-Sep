@@ -1,7 +1,6 @@
-package com.senosy.evamovieapp.ui.movelist.adapter
+package com.senosy.evamovieapp.ui.adapter
 
 import androidx.recyclerview.widget.DiffUtil
-import com.senosy.evamovieapp.datasource.model.MovieDataSource
 import com.senosy.evamovieapp.domain.model.MovieEntity
 
 /**

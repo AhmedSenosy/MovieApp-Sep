@@ -18,6 +18,9 @@ interface MovieApiService {
     @GET("movie/now_playing")
     fun getMoviesNowPlaying(@Query("page") pageNumber: Int?): Call<MovieListRemote>
 
+    @GET("search/movie")
+    fun searchMovie(@Query("page") pageNumber: Int?,@Query("query") query:String?): Call<MovieListRemote>
+
     @GET("movie/{id}")
     fun getMovie(@Path("id") movieId: Int?): Call<MovieRemote>
 }

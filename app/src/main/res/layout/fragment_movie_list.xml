@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.senosy.evamovieapp.ui.movelist.view.MovieListView
+    <com.senosy.evamovieapp.ui.view.MovieListView
         android:id="@+id/movie_list_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
